@@ -46,3 +46,24 @@ Returns live exchange rates for a given base currency. Subsequent requests withi
     "BRL": 5.45
   }
 }
+```
+
+### 2. Convert Currency
+Converts an amount from one currency to another using live or cached exchange rates.
+
+* **HTTP Method:** `GET`
+* **Route:** `/api/exchange/convert/{from}/{to}/{amount}`
+* **Example:** `/api/exchange/convert/USD/EUR/100`
+
+**Response (`200 OK`):**
+```json
+{
+  "from": "USD",
+  "to": "EUR",
+  "amount": 100,
+  "convertedAmount": 92.00,
+  "exchangeRate": 0.92,
+  "servedFromCache": true,
+  "timestamp": "2026-08-28T15:30:00Z"
+}
+```
