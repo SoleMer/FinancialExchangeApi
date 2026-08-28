@@ -67,3 +67,8 @@ Converts an amount from one currency to another using live or cached exchange ra
   "timestamp": "2026-08-28T15:30:00Z"
 }
 ```
+
+## 🚀 Live Demo
+You can test the deployed API live on Azure:
+* **Example Endpoint Get Exchange Rates:** [https://financial-exchange-api-dmfmh3hefbazbhaq.westus3-01.azurewebsites.net/api/rates/USD](https://financial-exchange-api-dmfmh3hefbazbhaq.westus3-01.azurewebsites.net/api/rates/USD)
+* **Example Endpoint Convert Currency:** [https://financial-exchange-api-dmfmh3hefbazbhaq.westus3-01.azurewebsites.net/api/convert/USD/ARS/100](https://financial-exchange-api-dmfmh3hefbazbhaq.westus3-01.azurewebsites.net/api/convert/USD/ARS/100)
